@@ -47,6 +47,7 @@
     <Compile Include="Colors.cs" />
     <Compile Include="Enumerable.cs" />
     <Compile Include="Event.cs" />
+    <Compile Include="CollectionOperations.cs" />
     <Compile Include="Mathematics.cs" />
     <Compile Include="RandomNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

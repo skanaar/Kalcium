@@ -15,5 +15,13 @@ namespace Kalcium.Wpf
             foreach (var property in properties)
                 PropertyChanged.Raise(property, this);
         }
+
+        public void SetProperty<T>(string propertyName, ref T field, T value)
+        {
+            if (object.Equals(field, value)) return;
+
+            field = value;
+            RaisePropertyChanged(propertyName);
+        }
     }
 }
