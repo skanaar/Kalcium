@@ -50,8 +50,10 @@
     <Compile Include="Mathematics.cs" />
     <Compile Include="RandomNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandomPoint.cs" />
     <Compile Include="RandomVector.cs" />
     <Compile Include="Strings.cs" />
+    <Compile Include="UnitVector.cs" />
     <Compile Include="VectorOperations.cs" />
     <Compile Include="Wpf\Command.cs" />
     <Compile Include="Wpf\Converter.cs" />
